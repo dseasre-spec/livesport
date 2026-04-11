@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#161A20"
       },
-      "package": "com.ruknia.app"
+      "package": "com.ruknia.sports"
     },
     "web": {
       "favicon": "./assets/favicon.png"

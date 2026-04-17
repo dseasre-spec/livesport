@@ -25,7 +25,7 @@ jobs:
         run: npm install -g expo-cli
 
       - name: تسجيل الدخول
-        run: expo login -u ${{ dearnessali }} -p ${{ 43EXjyQk4G)kPEn }}
+        run: expo login -u ${{ secrets.dearnessali }} -p ${{ secrets.43EXjyQk4G)kPEn }}
 
       - name: بناء APK
         run: npx eas build -p android --non-interactive
